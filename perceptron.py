@@ -51,7 +51,7 @@ df.drop(['id'],1, inplace=True)
 
 ### this part could be done using sklearn ###
 
-#set all to values as floats
+#set all values as floats
 full_data = df.astype(float).values.tolist()
 
 #shuffle the data
